@@ -11,7 +11,6 @@ const Todo = ({ onClick, completed, text }) => (
   </li>
 )
 
-// validates that it is the appopriate propTypes 
 Todo.propTypes = {
   onClick: PropTypes.func.isRequired,
   completed: PropTypes.bool.isRequired,
